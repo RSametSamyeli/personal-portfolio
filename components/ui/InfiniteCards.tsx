@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const InfiniteMovingCards = ({
   items,
@@ -121,9 +122,11 @@ export const InfiniteMovingCards = ({
                 </div>
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
-                  <span className="text-xl font-bold leading-[1.6] text-white">
+                  <Link target="_blank" href={item.linkedin}>
+                  <span className="text-xl font-bold leading-[1.6] text-white hover:text-purple transition ease-in-out delay-100">
                     {item.name}
                   </span>
+                  </Link>
                   {/* change text color */}
                   <span className=" text-sm leading-[1.6] text-white-200 font-normal">
                     {item.title}

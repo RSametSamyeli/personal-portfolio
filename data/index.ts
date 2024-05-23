@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -127,6 +129,7 @@ export const testimonials = [
     name: "Y. Mehmet Sagdur",
     title: "Brew Interactive - Software Engineer",
     picture: "/yahya.jpeg",
+    linkedin: "https://www.linkedin.com/in/ymsagdur/"
   },
   {
     quote:
@@ -134,6 +137,7 @@ export const testimonials = [
     name: "Yemliha Alıcı",
     title: "T-Soft - Frontend Developer",
     picture: "/yemliha.jpeg",
+    linkedin: "https://www.linkedin.com/in/yemlihaalici/"
   },
   {
     quote:
@@ -141,6 +145,7 @@ export const testimonials = [
     name: "Eda Balcin",
     title: "Akinon - Senior Project Manager",
     picture: "/eda.jpeg",
+    linkedin: "https://www.linkedin.com/in/edabalcin/"
   },
   {
     quote:
@@ -148,6 +153,7 @@ export const testimonials = [
     name: "Aliye Sinem Battal",
     title: "Demirören Teknoloji - Frontend Dev.",
     picture: "/aliye.jpeg",
+    linkedin: "https://www.linkedin.com/in/aliyesinembattal/"
   },
   {
     quote:
@@ -155,6 +161,7 @@ export const testimonials = [
       name: "Ogun Kirikci",
       title: "Patrion - Tech Lead Dev.",
       picture: "/ogun.jpeg",
+      linkedin: "https://www.linkedin.com/in/ogunkirikci/"
   },
   {
     quote:
@@ -162,6 +169,7 @@ export const testimonials = [
       name: "Tolga Yonca",
       title: "AppCircle - Senior Frontend Dev.",
       picture: "/tolga.jpeg",
+      linkedin: "https://www.linkedin.com/in/tolgayonca/"
   },
   {
     quote:
@@ -169,6 +177,7 @@ export const testimonials = [
     name: "Alim Dedei",
     title: "Etiya - Senior Specialist Business Analysis.",
     picture: "/alim.jpeg",
+    linkedin: "https://www.linkedin.com/in/alimdedei/"
   },
   {
     quote:
@@ -176,6 +185,7 @@ export const testimonials = [
     name: "Kübra Çabuk",
     title: "Akinon - Frontend Dev.",
     picture: "/kubra.jpeg",
+    linkedin: "https://www.linkedin.com/in/kubracabuk/"
   },
   {
     quote:
@@ -183,6 +193,7 @@ export const testimonials = [
     name: "Ömer Demirarslan",
     title: "Gözen Tech. - Team Lead Dev.",
     picture: "/omer.jpeg",
+    linkedin: "https://www.linkedin.com/in/omerdemirarslan/"
   },
 ];
 
