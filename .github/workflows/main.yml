@@ -32,7 +32,7 @@ jobs:
     name: Deploy to Dokku
     runs-on: ubuntu-latest
     needs: build_and_push
-    environment: test
+    environment: Production
     steps:
       - name: Deploy to Dokku
         uses: appleboy/ssh-action@v1.0.0
