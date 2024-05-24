@@ -37,7 +37,7 @@ jobs:
       - name: Deploy to Dokku
         uses: appleboy/ssh-action@v1.0.0
         with:
-          host: ${{ secrets.HOST_IP }}
+          host: ${{ vars.HOST_IP }}
           username: root
           key: ${{ secrets.HOST_SSH_KEY }}
           script: |
