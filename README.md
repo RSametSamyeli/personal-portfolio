@@ -7,9 +7,6 @@
 
 This project is my personal portfolio website, created to showcase my frontend development skills and introduce myself to potential employers or collaborators. The site includes information about me, the technologies I use, my projects, the services I offer, and feedback from people I have worked with. It also features a modern design and user experience principles.
 
-  
-![Portfolio Screenshot](./personal-2.png)
-
 
 ## Contents
 
@@ -52,7 +49,9 @@ The following technologies were used in this project:
 
 -  **Sentry**: Employed for error tracking and performance monitoring, increasing site stability.
 
-  
+
+![Portfolio Screenshot](./personal-4.png)
+
 
 ## Features
 
