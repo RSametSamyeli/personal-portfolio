@@ -205,6 +205,7 @@ export const workExperience = [
     desc: "Nuevo Softwarehouse is a leading software company known for its innovative solutions and customer-centric approach. We push the boundaries of technology to add value to the business world.",
     className: "md:col-span-2",
     thumbnail: "/nuevo-logo.png",
+    link: "https://www.nuevo.com.tr/",
   },
   {
     id: 2,
@@ -213,6 +214,7 @@ export const workExperience = [
     desc: "T-Soft is a reliable and innovative software company specializing in e-commerce solutions. It guides businesses through digital transformation, helping them boost their online sales.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/tsoft-logo.png",
+    link: "https://www.tsoft.com.tr/",
   },
   {
     id: 3,
@@ -221,6 +223,7 @@ export const workExperience = [
     desc: "Akinon is a leading technology company providing cloud-based digital solutions for the retail industry. It enables brands to accelerate their digital transformation by offering a seamless customer experience across all channels.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/akinon-logo.png",
+    link: "https://www.akinon.com/",
   },
   {
     id: 4,
@@ -229,6 +232,7 @@ export const workExperience = [
     desc: "Winnice is a dynamic technology company offering innovative solutions in e-commerce and digital marketing. It helps clients enhance their digital presence and boost their online success.",
     className: "md:col-span-2",
     thumbnail: "/winnice-logo.png",
+    link: "https://www.winnice.com.tr/",
   },
   {
     id: 5,
@@ -237,6 +241,7 @@ export const workExperience = [
     desc: "Sony is a global electronics and entertainment company renowned for its innovative technologies and high-quality products. It leads worldwide in a broad range of fields, from music to film, gaming to electronic devices.",
     className: "md:col-span-2",
     thumbnail: "/sonny-logo.png",
+    link: "https://www.sony.com/"
   },
   {
     id: 6,
@@ -245,6 +250,7 @@ export const workExperience = [
     desc: "Pegasus Airlines is one of Turkey's leading low-cost airline companies, offering affordable and quality services. With its extensive flight network, it provides customers with economical travel options.",
     className: "md:col-span-2",
     thumbnail: "/pegasus-logo.png",
+    link: "https://www.flypgs.com/"
   },
 ];
 

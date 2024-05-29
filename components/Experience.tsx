@@ -2,6 +2,7 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import Link from "next/link";
 
 const Experience = () => {
   return (
@@ -36,9 +37,11 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
+                <Link target="_blank" href={card.link} className="hover:text-purple">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
+                </Link>
                 <h4 className="text-start">
                   {card.job}
                 </h4>
