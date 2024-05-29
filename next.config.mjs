@@ -4,7 +4,6 @@ const nextConfig = {
     images: {
         unoptimized: true,
       },
-    output: 'export',
     typescript: {
         ignoreBuildErrors: true,
     }, 
