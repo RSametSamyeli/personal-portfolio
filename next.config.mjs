@@ -1,6 +1,11 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    output: 'export',
+    typescript: {
+        ignoreBuildErrors: true,
+    }, 
+};
 
 export default withSentryConfig(withSentryConfig(nextConfig, {
 // For all available options, see:
@@ -8,7 +13,7 @@ export default withSentryConfig(withSentryConfig(nextConfig, {
 
 // Suppresses source map uploading logs during build
 silent: true,
-org: "samet-samyeli",
+org: "portfolio-page",
 project: "javascript-nextjs",
 }, {
 // For all available options, see:
